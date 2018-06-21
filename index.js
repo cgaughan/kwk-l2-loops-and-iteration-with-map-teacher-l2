@@ -34,20 +34,19 @@ function attributesToPhrase(arrayStudents) {
 
 */
 function lowerCaseStudentNames (list) {
-  return list.map(function (student) {
+  return list.map(function hi (student) {
     return student.toLowerCase();
   });
 }
 
-/*
+
 function hi (student) {
   return student.toLowerCase();
 }
-
 function lowerCaseStudentNames (list) {
   return list.map(hi);
 }
-*/
+
 
 function nameToAttributes (list) {
   return list.map(function (student) {
